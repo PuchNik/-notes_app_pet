@@ -1,0 +1,13 @@
+.header {
+    height: 20%; /* Высота header 20% */
+    color: white; /* Цвет текста */
+    display: flex; /* Используем Flexbox для центрирования текста */
+    justify-content: center; /* Центрируем по горизонтали */
+    align-items: center; /* Центрируем по вертикали */
+}
+
+.header-text {
+    color: #747bff;
+    font-weight: bold;
+    font-size: 30px;
+}

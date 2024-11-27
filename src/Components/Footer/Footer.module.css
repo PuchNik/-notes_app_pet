@@ -1,0 +1,7 @@
+.footer {
+    height: 20%; /* Высота footer 20% */
+    color: black;
+    display: flex; /* Используем Flexbox для центрирования текста */
+    justify-content: center; /* Центрируем по горизонтали */
+    align-items: center; /* Центрируем по вертикали */
+}

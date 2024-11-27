@@ -1,0 +1,18 @@
+.input-container {
+    border: 2px solid #747bff; /* Цвет рамки */
+    border-radius: 8px; /* Закругленные углы */
+    background-color: #C0C0E3FF; /* Цвет фона контейнера */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Тень для контейнера */
+    max-width: 400px; /* Максимальная ширина контейнера */
+    color: wheat;
+    margin-bottom: 30px;
+}
+
+input {
+    border: none; /* Убираем границу у инпута */
+    outline: none; /* Убираем обводку при фокусе */
+    width: 100%; /* Ширина 100% */
+    font-size: 29px; /* Размер шрифта */
+    background-color: #C0C0E3FF;
+    color: wheat;
+}

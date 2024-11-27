@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box; /* Устанавливаем box-sizing для всех элементов */
+    margin: 0; /* Убираем отступы */
+    padding: 0; /* Убираем внутренние отступы */
+}
+
+html, body {
+    height: 100%; /* Устанавливаем высоту для html и body */
+}
+
+.container {
+    display: flex; /* Используем Flexbox */
+    flex-direction: column; /* Располагаем элементы по вертикали */
+    height: 100%; /* Высота контейнера на весь экран */
+}
+
+

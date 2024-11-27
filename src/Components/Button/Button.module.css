@@ -1,0 +1,24 @@
+.button-container {
+    text-align: center; /* Центрирование текста внутри контейнера */
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: #747bff; /* Цвет фона кнопки */
+    color: white; /* Цвет текста кнопки */
+    border: none; /* Убираем границу */
+    border-radius: 5px; /* Закругленные углы */
+    padding: 15px 30px; /* Внутренние отступы */
+    font-size: 16px; /* Размер шрифта */
+    cursor: pointer; /* Курсор при наведении */
+    transition: background-color 0.3s, transform 0.2s; /* Плавные переходы */
+}
+
+/*.styled-button:hover {*/
+/*    background-color: #0056b3; !* Цвет фона при наведении *!*/
+/*    transform: translateY(-2px); !* Подъем кнопки при наведении *!*/
+/*}*/
+
+/*.styled-button:active {*/
+/*    transform: translateY(0); !* Возврат кнопки в исходное положение при нажатии *!*/
+/*}*/

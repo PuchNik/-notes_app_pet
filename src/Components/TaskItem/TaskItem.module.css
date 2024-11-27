@@ -1,0 +1,26 @@
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+    min-width: 70%;
+}
+
+.task-underline {
+    text-decoration: line-through;
+}
+
+.task-text {
+    margin: 0 10px;
+}
+
+.task-buttons {
+    display: flex;
+    gap: 5px;
+    margin-right: 5px;
+    padding-top: 20px;
+}
